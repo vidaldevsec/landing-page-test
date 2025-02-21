@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+.topo{
+    background: url(../img/fundo.svg) no-repeat center center;
+    color: #FFF;
+    padding-bottom: 100px;
+}
+#logo{
+    margin: 52px 0 0 56px;
+}
+.titulo-menu{
+    margin-left: 172px;
+    margin-top: 52px;
+}
+.subtitulo-menu{
+    margin-left: 172px;
+    margin-top: 30px;
+}
+.menuinformacional{
+    background: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.menuinformacional .textoinfor{
+    display: flex;
+    align-items: center;
+}
+.menuinformacional .icon{
+    margin: 50px 0 50px 100px;
+    padding: 25px;
+}
+.secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.secaovideo .video{
+    margin: 50px 25px 50px 100px;
+}
+.secaovideo .titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+}
+.secaovideo .texto-video{
+    color: #383838;
+}
+.secao-carousel{
+    background: #247BA0;
+    padding: 50px;
+}
+.secao-carousel h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+}
+.secao-carousel .cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+.secao-carousel .cards .card{
+    margin-left: 50px;
+}
+.secao-carousel .cards #seta-esquerda{
+    display: none;
+}
+.secao-carousel .cards .setas{
+    margin-top: 40%;
+    cursor: pointer;
+}
+.secao-carousel .cards .setas:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+.secao-carousel .cards .hidden{
+    display: none;
+}
+.formulario{
+    text-align: center;
+}
+.formulario .titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+.formulario .form{
+    
+}
+.formulario .form input{
+    width: 300px;
+    height: 30px;
+    background: #EAECE5;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.formulario .form button{
+    background: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.formulario .form button:hover{
+    background-color: #00425f;
+    color: #FFF;
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 15px 20px #26303476;
+}
