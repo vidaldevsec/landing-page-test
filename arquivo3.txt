@@ -1,2 +1,3 @@
-ramificação merge
+ramificação merge. Agora o proximo dev adiciona outra linha
 minha segunda linha de texto
+
